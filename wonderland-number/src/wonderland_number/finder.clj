@@ -8,6 +8,7 @@
   (let [s1 (set (str n1))
         s2 (set (str n2))]
     (= s1 s2)))
+  
 ;Generate a sequence of a number multiplied by 2 3 4 5 6
 (defn multiplier  [n]  (let  [mults  (range 2 7)]  (map #(* n %) mults)))
 
